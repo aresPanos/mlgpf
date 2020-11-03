@@ -94,7 +94,7 @@ def get_flags():
     flags.DEFINE_integer('num_factors', 30, 'Number of factors (P) > 1')
     flags.DEFINE_float('l_r', 0.005, 'Learning rate for Adam optimizer')
     flags.DEFINE_string('dataset', 'eurlex', 'Dataset name')
-    flags.DEFINE_string('kernel', 'eurlex', 'Chosem kernel - accepted values [se, linear, se_plus_linear]')
+    flags.DEFINE_string('kernel', 'se_plus_linear', 'Chosen kernel - accepted values [se, linear, se_plus_linear]')
     flags.DEFINE_bool('print_metrics', True, 'Print metrics throughout optimization (Boolean)')
     
     if FLAGS.max_batch_size < FLAGS.min_batch_size:
