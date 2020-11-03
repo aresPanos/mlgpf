@@ -6,9 +6,10 @@ This repository includes the code used in our paper [Large Scale Multi-Label Lea
 numpy - version 
 tensorFlow==2.1.0  
 tensorFlow_probability==0.9.0  
-gpflow==2.0.0
-silence-tensorflow==1.1.1 (optional)
-xc_metrics (dowoloaded from [here](https://github.com/kunaldahiya/pyxclib))
+gpflow==2.0.0  
+silence-tensorflow==1.1.1 (optional)  
+sklearn==0.23.2  
+xc_metrics (downloaded from [here](https://github.com/kunaldahiya/pyxclib))  
 
 ## Flags ##
 * max_batch_size: Maximum batch size; the final batch size (integer - default=2000)
