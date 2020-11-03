@@ -1,6 +1,6 @@
 # Large Scale Multi-Label Learning using Gaussian Processes #
 
-This repository includes the code used in our paper [Large Scale Multi-Label Learning using Gaussian Processes](https://www.springer.com/journal/10994) to reproduce results. 
+This repository includes the code used in our paper [Large Scale Multi-Label Learning using Gaussian Processes](https://www.springer.com/journal/10994). 
 
 ## Requirements ##
 numpy - version 
