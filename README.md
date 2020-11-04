@@ -3,7 +3,8 @@
 This repository includes the code used in our paper [Large Scale Multi-Label Learning using Gaussian Processes](https://www.springer.com/journal/10994). 
 
 ## Requirements ##
-numpy - version 
+numpy==1.19.1  
+scipy==1.5.2  
 tensorFlow==2.1.0  
 tensorFlow_probability==0.9.0  
 gpflow==2.0.0  
